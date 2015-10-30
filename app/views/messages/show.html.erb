@@ -1,0 +1,31 @@
+<div class="container fluid-height clearfix">
+  <%= render 'head'%>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="heading"><i class="icon-random"></i>&nbsp; 留言板</h2>
+      <div class="widget-container fluid-height clearfix" style="padding: 10px;">
+
+        <div class="col-lg-6">
+          <p>
+            <span class="col-sm-2" style="text-align: right;">联系人:</span>
+            <%= @message.name %>
+          </p>
+
+          <p>
+            <span class="col-sm-2" style="text-align: right;">联系电话:</span>
+            <%= @message.tel %>
+          </p>
+
+          <p>
+            <span class="col-sm-2" style="text-align: right;">留言内容:</span>
+          <div style="text-align: left"> <%= @message.content %></div>
+          </p>
+
+          <!--    <%#= link_to '编辑', edit_sidemessage_path(@sidemessage),class:"btn btn-primary-outline pull-right" %> -->
+          <%= link_to '返回', messages_path ,class:"btn btn-primary-outline pull-right"%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

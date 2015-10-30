@@ -1,0 +1,43 @@
+<%=render 'head' %>
+
+<div class="container fluid-height clearfix">
+
+  <h2 class="heading">新闻设置</h2>
+  <div class="widget-container fluid-height clearfix">
+    <table class="table table-hover table-bordered table-striped">
+      <thead>
+      <tr>
+        <th></th>
+        <th>标题</th>
+        <th>摘要</th>
+        <th>内容</th>
+        <th>时间</th>
+        <th>操作</th>
+      </tr>
+      </thead>
+
+
+      <% @newscents.each do |newscent| %>
+          <tr>
+            <td width="30px"><i class="icon-desktop"></i></td>
+            <td class="hidden-xs"><%= newscent.title %></td>
+            <td><%= newscent.inpaper %></td>
+            <td><%= newscent.content %></td>
+            <td><%= newscent.time %></td>
+            <td width="100px" align="center"><%= link_to "", newscent,  class:"icon-pencil usricons", title: "编辑" %>&nbsp;&nbsp;
+              <%= link_to '', newscent, method: :delete, data: { confirm: '确认删除？' },class:"icon-trash usricons", title:"删除" %></td>
+          </tr>
+      <% end %>
+
+    </table>
+
+    <br>
+    <div class="digg_pagination">
+      <%= will_paginate @newscents, :previous_label => '上一页', :next_label => '下一页' %>
+    </div>
+
+
+
+    <%= link_to ' 新闻录入', new_newscent_path, class: "icon-plus btn btn-primary-outline pull-right",'data-no-turbolink'=>true %>
+  </div>
+</div>
