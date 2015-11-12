@@ -1,6 +1,6 @@
 class AdvertisementsController < ApplicationController
   before_action :set_advertisement, only: [:show, :edit, :update, :destroy]
-  before_action :authorize
+
   # GET /advertisements
   # GET /advertisements.json
   def index
@@ -69,6 +69,6 @@ class AdvertisementsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def advertisement_params
-      params.require(:advertisement).permit(:title, :local, :content, :avatar)
+      params.require(:advertisement).permit(:title, :local, :content, :image)
     end
 end

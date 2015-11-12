@@ -21,7 +21,7 @@
             <td width="30px"><i class="icon-bullhorn"></i></td>
             <td><%=  advertisement.title%></td>
             <td><%= advertisement.local %></td>
-            <td><%= image_tag advertisement.avatar.url,width:'100' %></td>
+            <td><%=advertisement.image%></td>
             <td><%= advertisement.content %></td>
             <td width="100px" align="center"><%= link_to "", advertisement,  class:"icon-pencil usricons", title: "编辑" %>&nbsp;&nbsp;
               <%= link_to '', advertisement, method: :delete, data: { confirm: '确认删除？' },class:"icon-trash usricons", title:"删除" %></td>

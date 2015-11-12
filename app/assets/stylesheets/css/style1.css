@@ -1,0 +1,111 @@
+
+#main1{width:100%; height:auto; margin:0 auto; padding-top:5px;}
+
+/*公司简介*/
+.jianjie{ width:34%; height:300px; float:left; margin-top:15px;margin-left:20px; 	/* Safari 4-5,Chrome 1-9 */
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
+
+    /* Safari 5.1,Chrome 10+*/
+    background:-webkit-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* Firefox 3.6+*/
+    background:-moz-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* IE 10 */
+    background:-ms-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* Opera 11.10+*/
+    background:-o-linear-gradient(top,#8BD2FF,#f8f8f8);}
+.tittle{ width:100%; height:36px; line-height:36px; background:url(../list_bj.jpg) repeat-x; border-right:1px solid #dcdcdc; border-left:1px solid #dcdcdc; }
+.tittle span{color:#ef6200; font-size:14px; font-family:microsoft yahei; margin-left:10px; line-height:36px; float:left;}
+.tittle tt{color:#ef6200; font-size:14px; font-family:microsoft yahei; margin-left:10px; line-height:36px; float:left;}
+.tittle a{ color:#666666; float: right; margin-right:13px; line-height:36px;}
+.conent_jianjie{ width:100%; height:264px; border:1px solid #dcdcdc; border-top:0px;}
+.conent_jianjie .gongsi_tu{ width:280px; height:200px; overflow:hidden; float:left; margin-top:27px; margin-left:10px; border:1px solid #f5f4f4;}
+.conent_jianjie .gongsi_neir{ width:300px; height:150px; float:left; margin-left:20px; margin-top:5px; padding-top:10px;}
+.conent_jianjie .gongsi_neir p{ line-height:19px; color:#676766;}
+.conent_jianjie .gongsi_neir p a{ color:#f06c10;}
+
+/*产品展示*/
+.zhanshi{ width:42%; height:300px; float:left; margin-top:15px;margin-left:20px;/* Safari 4-5,Chrome 1-9 */
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
+
+    /* Safari 5.1,Chrome 10+*/
+    background:-webkit-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* Firefox 3.6+*/
+    background:-moz-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* IE 10 */
+    background:-ms-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* Opera 11.10+*/
+    background:-o-linear-gradient(top,#8BD2FF,#f8f8f8);}
+.zhanshi .tittle_hd{ width:466px; height:300px; line-height:360px; background:url(../image/list_bj.jpg) repeat-x; border-right:1px solid #dcdcdc; border-left:1px solid #dcdcdc; }
+
+
+/*新闻展会*/
+.zhanhui_index{ width:20%; height:300px; float:left; margin-top:15px;margin-left:20px;/* Safari 4-5,Chrome 1-9 */
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
+
+    /* Safari 5.1,Chrome 10+*/
+    background:-webkit-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* Firefox 3.6+*/
+    background:-moz-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* IE 10 */
+    background:-ms-linear-gradient(top,#8BD2FF,#f8f8f8);
+
+    /* Opera 11.10+*/
+    background:-o-linear-gradient(top,#8BD2FF,#f8f8f8);}
+.conent_zhan_index{ width:100%; height:264px; border:1px solid #dcdcdc; border-top:0px;}
+.zhanhui_index ul{ margin-left:15px; padding-top:20px;}
+.zhanhui_index ul li{ line-height:24px; background:url(../image/listas.jpg) no-repeat 0px; padding-left:10px;}
+.zhanhui_index ul li a{ color:#464646;}
+.zhanhui_index ul li span{ float:right; color:#acacac; margin-right:20px;}
+
+/*客服服务*/
+.kefu_index{ width:100%; height:272px; border:1px solid #dcdcdc; border-top:0px;}
+.kefu_index .kefu_tu{ width:440px; height:191px;  margin-left:13px;}
+.kefu_index p{ padding-left:13px; color:#6b6a69; line-height:20px; margin-top:10px;}
+.kefu_index h1{ padding:0px; margin:0px; font-size:16px; color:#ef6200; line-height:28px; padding-left:13px; font-weight:normal; font-family:microsoft yahei;}
+.kefu_index h1 span{ font-size:18px; font-family:microsoft yahei;}
+
+/*产品列表*/
+#main2{ width:1000px; height:auto; margin:0 auto; padding-top:20px;}
+#main2 .left_zhanshi{ width:200px; float:left; height:auto;}
+#main2 .menu{ width:198px; height:auto;}
+#main2 .menu_warp{ width:168px; height:auto; border:1px solid #dcdcdc; border-top:0px; padding-bottom:20px; padding-left:15px; padding-right:15px;}
+#main2 .menu_warp ul{ margin-top:10px;display:inline-block}
+
+#main2 .menu_warp ul li{ background:url(../image/menu.jpg) no-repeat; line-height:27px; margin-top:5px; width:141px; padding-left:30px; cursor:pointer; }
+#main2 .menu_warp ul li { color:#545352; font-weight:bold; display:block;}
+#main2 .menu_warp ul li .yincang{ background:none; font-size:12px; display:none; font-weight:normal; color:#6d6c6b; width:135px; padding-bottom:10px;}
+#main2 .menu_warp ul li ul li{ background:url(../image/listc.jpg) no-repeat 0px; padding-left:0px; text-indent:8px; line-height:20px;}
+#main2 .menu_warp ul li .yincang a{ font-weight:normal; font-size:12px; color:#6d6c6b;}
+#main2 .menu_warp ul li .yincang a:hover{ color:#ef6200;}
+#main2 .menu_warp .yanse{ color:#ef6200 !important;}
+
+/*快速通道*/
+.tongdao{ width:200px; height: auto; margin-top:20px;}
+.kuai_warp{ width:170px; height:auto; border:1px solid #dcdcdc; border-top:0px; padding-bottom:20px; padding-left:15px; padding-right:15px; padding-top:10px;}
+.text_chaxub{ width:150px; height:20px; line-height:20px; margin-top:10px; margin-left:7px; color:#555;}
+.button_sousuo{ width:148px; height:25px; background:#403f3e; color:#fff; text-align:center; line-height:25px; margin-left:7px; font-size:14px; font-family:microsoft yahei; border:0px; border-radius:5px; margin-top:10px;}
+
+#main2 .right_chanpin{ width:780px; float:right; height:auto;}
+#main2 .right_con_cp{ width:780px; height:auto; border:1px solid #dcdcdc; border-top:0px; margin:0 auto;}
+#main2 .right_con_cp ul { width:740px; margin:0 auto; padding-top:20px;}
+#main2 .right_con_cp ul li{ border-bottom:1px #dcdada dotted; line-height:38px; height:38px;}
+#main2 .cpjian{ width:740px; height:auto;padding-top:20px; padding-bottom:10px;  margin:0 auto;border-bottom:1px solid #d5d5d5;}
+#main2 .right_con_cp ul li a{ color:#545353;}
+#main2 .cpjian p{ line-height:20px; color:#504f4f;}
+#main2 .right_con_cp ul li span{ float:right; color:#797878;}
+#main2 .chanpi_warp{ width:740px; height:175px; border-bottom:1px dotted #d5d5d5; margin:15px auto; }
+#main2 .cpjian p{ line-height:20px; color:#504f4f;}
+#main2 .chanpin_tuone{ width:205px; height:156px; border:1px solid #e6e5e5; overflow:hidden; float:left;} 
+#main2 .chanpi_warp .chan_jies{ width:500px; height:146px; float:left; margin-left:15px; padding-top:10px;}
+#main2 .chanpi_warp .chan_jies p{ color:#5c5b5b; line-height:20px;}
+#main2 .chan_jies span{ display:block; line-height:24px; font-size:14px; font-family:microsoft yahei; color:#5c5b5b; clear:both;}
+#main2 .chan_jies p{ margin-top:10px; color:#5c5b5b; line-height:24x;}
+#main2 .chan_jies p a{ color:#ef6200;}

@@ -30,4 +30,4 @@
 //= require js/spectrum.js
 //= require js/switcher.js
 //= require js/custom.js
-
+//= require js/lrscroll.js

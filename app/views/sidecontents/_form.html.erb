@@ -13,7 +13,6 @@
       <% if @sidecontent.errors.any? %>
           <div id="error_explanation">
             <h2><%= pluralize(@sidecontent.errors.count, "error") %> prohibited this sidecontent from being saved:</h2>
-
             <ul>
               <% @sidecontent.errors.full_messages.each do |message| %>
                   <li><%= message %></li>
@@ -28,7 +27,6 @@
             <td> <%= f.hidden_field :sidecla_id,value:1%>
               <% @sideclas = Sidecla.all%>
               <select id="sideclaid" class="form-control" type="text" onchange="cardtypeselect()">
-
                 <%= @sideclas.each do |f| %>
                     <option value=<%=f.id%>><%=f.title%></option>
                 <%end%>
@@ -42,6 +40,30 @@
           </div>
         </tr>
         <tr>
+          <div class="form-group">
+            <td style="margin-top: 10px;width:90px;text-align: right;padding: 10px;"><%= f.label :型号 %></td>
+            <td><%= f.text_area :version,:class =>"form-control"%></td>
+          </div>
+        </tr>
+
+
+        <tr>
+          <div class="form-group">
+            <td style="margin-top: 10px;width:90px;text-align: right;padding: 10px;"><%= f.label :产品特性 %></td>
+            <td><%= f.text_area :feature,:class =>"form-control"%></td>
+          </div>
+        </tr>
+
+
+
+        <tr>
+          <div class="form-group">
+            <td style="margin-top: 10px;width:90px;text-align: right;padding: 10px;"><%= f.label :使用范围 %></td>
+            <td><%= f.text_area :range,:class =>"form-control"%></td>
+          </div>
+        </tr>
+
+        <tr>
           <div  class="form-group">
             <td style="margin-top: 10px;width:90px;text-align: right;padding: 10px;"> <%= f.label :摘要 %></td>
             <td ><%= f.text_field :inpaper,:class =>"form-control" %></td>
@@ -54,6 +76,9 @@
             <td><%= f.kindeditor :content,:class =>"form-control"%></td>
           </div>
         </tr>
+
+
+
         <tr>
           <div class="form-group">
             <td style="margin-top: 10px;width:90px;text-align: right;padding: 10px;display: none">   <%= f.label :发布时间 %></td>

@@ -1,6 +1,3 @@
-
-
-
 <div class="container fluid-height clearfix">
   <%= render 'head'%>
 
@@ -24,16 +21,17 @@
 
           <p>
             <span class="col-sm-2" style="text-align: right;">备注:</span>
-            <%= image_tag @advertisement.avatar.url,width:'100' %>
-          </p>
-
-          <p>
-            <span class="col-sm-2" style="text-align: right;">备注:</span>
             <%= @advertisement.content %>
           </p>
 
           <%= link_to '编辑', edit_advertisement_path(@advertisement) ,class:"btn btn-primary-outline pull-right",'data-no-turbolink'=>true%>
           <%= link_to '返回', advertisements_path,class:"btn btn-primary-outline pull-right" %>
+        </div>
+        <div class="col-lg-6 cts-leftborder-container">
+          <h4 class="icon-desktop">&nbsp;图片</h4>
+          <p >
+            <%=@advertisement.image.html_safe%>
+          </p>
         </div>
       </div>
     </div>

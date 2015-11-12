@@ -27,85 +27,101 @@
               <%= link_to '了解我们',sides_path(keywords:"about"),class: params[:keywords]=='about'?'current-link':'menu',class:'btn btn-special btn-color pull-right','data-no-turbolink'=>true %>
             </div>
           </div>
-          <div class="clearfix"></div>
         </div>
       </div>
     </div>
   </div>
-</div>
 <!-- Main Content start-->
-<div class="main-content">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="content-box big ch-item bottom-pad-small">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-1"><i class="icon-fullscreen"></i></div>
-              <div class="ch-info-back">
-                <i class="icon-fullscreen"></i>
-              </div>
+  <div class="fullwidthbanner-container">
+    <div class="main-content">
+      <div class="row">
+        <div id="main1">
+          <div class="jianjie">
+            <div class="tittle"><span>公司简介</span></div>
+            <div class="conent_jianjie">
+              <div class="gongsi_tu"><%=image_tag('banner01.png',size:'280x220')%></div>
+              <div class="gongsi_neir"><p>
+                   &nbsp;&nbsp;&nbsp;&nbsp;云南泽隆工贸有限公司建设有世界先进水平的全自动连续化生产线，检测设备先进，技术力量雄厚。工业密封胶作为公司的战略业务，玉鼠系列工业密封胶产品已被广泛应用于电子电器、太阳能光伏组件、机场跑道、汽车列车、码头防老化等行业，为解决地铁、风能发电、光电幕墙、机场道路防冻等密封粘结和防护提供高品质产品。
+              </p>
+                <p style="margin-top: -5px"> &nbsp;&nbsp;&nbsp;&nbsp;未来我们将一如既往践行“追求顶端的产品品质”的企业使命，勇于实践，勇担责任，共同创造价值。
+                ....<a>了解更多>></a></p></div>
             </div>
           </div>
-          <div class="content-box-info">
-            <h3>专业</h3>
-            <p>
-              云南泽隆工贸有限公司设有世界先进水平的全自动连续化生产线，检测设备先进，技术力量雄厚。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
+          <div class="zhanshi">
+            <div class="tittle"><span>认证展示</span></div>
+            <div class="conent_jianjie">
+              <DIV id=featureContainer>
+                <DIV id=feature>
+                  <DIV id=block>
+                    <DIV id=botton-scroll>
+                      <UL class=featureUL>
+                        <LI class=featureBox>
+                         <%=image_tag('zhiliang.png',size:'200x245',alt:'Paracletos')%>
+                          <!-- /box --></LI>
+                        <LI class=featureBox>
+                         <%=image_tag('zhiliangen.png',size:'200x245',alt:'Natural Touch Soap')%>
+                          <!-- /box --></LI>
+                        <LI class=featureBox>
+                          <%=image_tag('jiance1.png',size:'200x245',alt:'LRTK')%>
+                          <!-- /box --></LI>
+                        <LI class=featureBox>
+                          <%=image_tag('jiancebagao.png',size:'200x245',alt:'Natalie Reid')%>
+                          <!-- /box --></LI>
+                        <LI class=featureBox>
+                        <%=image_tag('zhiliang.png',size:'200x245',alt:'xixi')%>
+                          <!-- /box --></LI>
+                        <LI class=featureBox>
+                        <%=image_tag('zhiliangen.png',size:'200x245',alt:'Catherine Sherwood')%>
+                          <!-- /box -->
+                        </LI>
+                      </UL>
+                    </DIV>
+                  </DIV>
+                  <A class=prev1 href="javascript:void();">Previous</A>
+                  <A class=next1 href="javascript:void();">Next</A>
+                </DIV>
+                <!-- /feature --></DIV><!-- /featureContainer -->
+              <DIV id=wrap><SPAN id=load>LOADING...</SPAN>
+              </DIV><!-- /wrap -->
+            </DIV><!-- /featured -->
+
+
           </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="content-box big ch-item bottom-pad-small">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-1"><i class="icon-eye-open"></i></div>
-              <div class="ch-info-back">
-                <i class="icon-eye-open"></i>
-              </div>
+          </div>
+          <div class="zhanhui_index">
+            <div class="tittle"><span>新闻展会</span><a>更多+</a></div>
+            <div class="conent_zhan_index">
+              <ul>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+                <li style="text-decoration:underline"><span>2012-12-10</span><a>9月13河北百组织公司旅游</a></li>
+            </ul>
             </div>
           </div>
-          <div class="content-box-info">
-            <h3>致臻</h3>
-            <p>
-              未来我们将一如既往践行“追求项端的产品品质”的企业使命，勇于实践，勇担责任，共同创造价值。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
+          <div style="clear:both"></div>
+        </div>
+
           </div>
         </div>
+
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="content-box big ch-item">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-1"><i class="icon-edit"></i></div>
-              <div class="ch-info-back">
-                <i class="icon-edit"></i>
-              </div>
-            </div>
-          </div>
-          <div class="content-box-info">
-            <h3>共赢</h3>
-            <p>
-              工业密封胶作为公司的战略业务，玉鼠系列工业密封胶产品已被广泛应用于电子电器、太阳能光伏组件、机场跑道、汽车列车、码头防老化等行业，为解决地铁、风能发电、光电幕墙、机场道路防冻等密封粘结和防护提供高品质产品。
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- Main Content end-->
 <!-- Recent works start-->
-<div class="recentworks bottom-pad">
-  <div class="container">
+<div class="recentworks">
+  <div class="fullwidthbanner-container">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 animate_afl d1">
         <div class="portfolio-desc">
           <h3 class="title">产品介绍</h3>
           <p>本公司酸性玻璃胶，中性耐候密封胶符合GB/T14683-2003标准规定的G类N形优等品标准生产。硅酮结构密封胶符合GB16776-2005合格品标准产品。另外根据国家强制标准GB18583-2001的有关规定，各类硅酮胶符合GB18583-2001标准的规定。</p>
+          <p>本公司酸性玻璃胶，中性耐候密封胶符合GB/T14683-2003标准规定的G类N形优等品标准生产。硅酮结构密封胶符合GB16776-2005合格品标准产品。另外根据国家强制标准GB18583-2001的有关规定，各类硅酮胶符合GB18583-2001标准的规定。</p>
+          <p>本公司酸性玻璃胶，中性耐候密封胶符合GB/T14683-2003标准规定的G类N形优等品标准生产。硅酮结构密封胶符合GB16776-2005合格品标准产品。另外根据国家强制标准GB18583-2001的有关规定，各类硅酮胶符合GB18583-2001标准的规定。</p>
           <div class="carousel-controls">
-            <a class="prev" href="#portfolio-carousel" data-slide="prev"><i class="icon-angle-left"></i></a>
-            <a class="next" href="#portfolio-carousel" data-slide="next"><i class="icon-angle-right"></i></a>
+            <a class="next" href="#portfolio-carousel" data-slide="next"><i class="icon-angle-right" style="color: #ffffff"></i></a>
             <div class="clearfix"></div>
           </div>
         </div>
@@ -212,3 +228,4 @@
   </div>
 </div>
 <!-- Recent work end-->
+</div>

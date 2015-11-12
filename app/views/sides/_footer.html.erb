@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" xmlns="http://www.w3.org/1999/html">
   <!-- Footer Top Start -->
   <div class="footer-top">
     <div class="container">
@@ -6,23 +6,25 @@
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
           <h3>产品中心</h3>
           <p>
-            玻璃胶
+          最新产品
           </p>
           <p>
-            玻璃胶1
+            墙胶
           </p>
           <p>
-            玻璃胶2
+           门胶
           </p>
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
           <h3>新闻中心</h3>
           <ul id="tweets">
+          <li>集团动态</li>
+            <li>行业新闻</li>
           </ul>
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
           <% @cfgs.each do |cfg| %>
-          <h3>关于我们</h3>
+          <h3>联系我们</h3>
           <ul class="contact-us">
             <li>
               <i class="icon-map-marker" style="color: #ffffff"></i>
@@ -42,8 +44,14 @@
               <%end%>
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
-          <h3>服务与支持</h3>
-          <ul id="flickrfeed" class="thumbs"></ul>
+          <h3>关于我们</h3>
+          <ul>
+            <li>
+          <p style="color: #ffffff">
+            <i class="icon-globe" style="color: #ffffff"></i> <%= link_to '     集团概况',sides_path(keywords:"about"),style:"color: #ffffff",'data-no-turbolink'=>true %>
+          </p>
+            </li>
+              </ul>
         </section>
       </div>
     </div>
