@@ -1,5 +1,5 @@
 GEM
-  remote: https://ruby.taobao.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (4.2.4)
       actionpack (= 4.2.4)
@@ -168,7 +168,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2 (~> 0.3.18)
+  mysql2 (~> 0.3.20)
   paperclip
   rails (= 4.2.4)
   rails_kindeditor

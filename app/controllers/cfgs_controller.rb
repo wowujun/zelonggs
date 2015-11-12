@@ -1,3 +1,4 @@
+# encoding: utf-8
 class CfgsController < ApplicationController
   before_action :set_cfg, only: [:show, :edit, :update, :destroy]
   before_action :authorize

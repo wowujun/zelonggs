@@ -2,7 +2,7 @@ class CtsinitsController < ApplicationController
   def index
 
     if Admin.count == 0
-      Admin.create(name:"admin",password:"admin",password_confirmation:"admin")
+      Admin.create(name:"admin",password:"admin",password_confirmation:"admin",status:1)
     end
 
     if Cfg.count == 0
