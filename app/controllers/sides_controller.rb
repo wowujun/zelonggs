@@ -9,9 +9,7 @@ class SidesController < ApplicationController
       @cla = Sidecla.find_by_keywords("news")
     @sidecontents = @cla.sidecontents
       @searchs = @sidecontents
-    else
-      @cla = Sidecla.find_by_keywords("products")
-      @sidecontents = @cla.sidecontents
+
       end
 
   end
