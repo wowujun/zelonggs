@@ -2,7 +2,7 @@
 #main1{width:100%; height:auto; margin:0 auto; padding-top:5px;}
 
 /*公司简介*/
-.jianjie{ width:34%; height:300px; float:left; margin-top:15px;margin-left:20px; 	/* Safari 4-5,Chrome 1-9 */
+.jianjie{ width:33.5%; height:300px; float:left; margin-top:15px;margin-left:1.5%; 	/* Safari 4-5,Chrome 1-9 */
     background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
 
     /* Safari 5.1,Chrome 10+*/
@@ -21,13 +21,13 @@
 .tittle tt{color:#ef6200; font-size:14px; font-family:microsoft yahei; margin-left:10px; line-height:36px; float:left;}
 .tittle a{ color:#666666; float: right; margin-right:13px; line-height:36px;}
 .conent_jianjie{ width:100%; height:264px; border:1px solid #dcdcdc; border-top:0px;}
-.conent_jianjie .gongsi_tu{ width:280px; height:200px; overflow:hidden; float:left; margin-top:27px; margin-left:10px; border:1px solid #f5f4f4;}
-.conent_jianjie .gongsi_neir{ width:300px; height:150px; float:left; margin-left:20px; margin-top:5px; padding-top:10px;}
+.conent_jianjie .gongsi_tu{ width:44%; height:200px;  float:left; margin-top:27px; margin-left:2%; border:1px solid #f5f4f4;}
+.conent_jianjie .gongsi_neir{ width:48%; height:240px; float:left; overflow:hidden;margin-left:3%; margin-top:5px; padding-top:10px;}
 .conent_jianjie .gongsi_neir p{ line-height:19px; color:#676766;}
 .conent_jianjie .gongsi_neir p a{ color:#f06c10;}
 
 /*产品展示*/
-.zhanshi{ width:42%; height:300px; float:left; margin-top:15px;margin-left:20px;/* Safari 4-5,Chrome 1-9 */
+.zhanshi{ width:42%; height:300px; float:left; margin-top:15px;margin-left:1%;/* Safari 4-5,Chrome 1-9 */
     background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
 
     /* Safari 5.1,Chrome 10+*/
@@ -41,11 +41,11 @@
 
     /* Opera 11.10+*/
     background:-o-linear-gradient(top,#8BD2FF,#f8f8f8);}
-.zhanshi .tittle_hd{ width:466px; height:300px; line-height:360px; background:url(../image/list_bj.jpg) repeat-x; border-right:1px solid #dcdcdc; border-left:1px solid #dcdcdc; }
+
 
 
 /*新闻展会*/
-.zhanhui_index{ width:20%; height:300px; float:left; margin-top:15px;margin-left:20px;/* Safari 4-5,Chrome 1-9 */
+.zhanhui_index{ width:19.5%; height:264px; float:left; margin-top:15px;margin-left:1%;/* Safari 4-5,Chrome 1-9 */
     background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f8f8f8),to(#fafafa));
 
     /* Safari 5.1,Chrome 10+*/
@@ -59,18 +59,13 @@
 
     /* Opera 11.10+*/
     background:-o-linear-gradient(top,#8BD2FF,#f8f8f8);}
-.conent_zhan_index{ width:100%; height:264px; border:1px solid #dcdcdc; border-top:0px;}
+.conent_zhan_index{ width:100%; height:264px; border:1px solid #dcdcdc; border-top:0px;overflow: hidden}
 .zhanhui_index ul{ margin-left:15px; padding-top:20px;}
 .zhanhui_index ul li{ line-height:24px; background:url(../image/listas.jpg) no-repeat 0px; padding-left:10px;}
 .zhanhui_index ul li a{ color:#464646;}
 .zhanhui_index ul li span{ float:right; color:#acacac; margin-right:20px;}
 
-/*客服服务*/
-.kefu_index{ width:100%; height:272px; border:1px solid #dcdcdc; border-top:0px;}
-.kefu_index .kefu_tu{ width:440px; height:191px;  margin-left:13px;}
-.kefu_index p{ padding-left:13px; color:#6b6a69; line-height:20px; margin-top:10px;}
-.kefu_index h1{ padding:0px; margin:0px; font-size:16px; color:#ef6200; line-height:28px; padding-left:13px; font-weight:normal; font-family:microsoft yahei;}
-.kefu_index h1 span{ font-size:18px; font-family:microsoft yahei;}
+
 
 /*产品列表*/
 #main2{ width:1000px; height:auto; margin:0 auto; padding-top:20px;}

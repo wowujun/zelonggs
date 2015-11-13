@@ -6,7 +6,7 @@ class CtsinitsController < ApplicationController
     end
 
     if Cfg.count == 0
-      Cfg.create(sale_tel:"0877-123456789",email:"xxxxxxxxxxx@xxxx.xxx",company_name:"云南泽隆工贸有限公司",address:"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",content:"xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+      Cfg.create(sale_tel:"0877-2047669",email:"YNZELONG@163.COM",company_name:"云南泽隆工贸有限公司",address:"云南省玉溪市红塔工业园云锦路2号",content:"传真:0877-2047669")
     end
 
   end

@@ -1174,6 +1174,7 @@ ul.graph-container {
 }
 
 .recentworks {
+    width: 100%;
     background: #8BD2FF;
     padding: 60px 0;
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
