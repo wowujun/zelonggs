@@ -6,14 +6,9 @@
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
           <h3>产品中心</h3>
           <p>
-          最新产品
+            <i class="icon-shopping-cart" style="color: #ffffff"></i><%= link_to '         产品展示',sides_path(keywords:"products"),class: params[:keywords]=='products'?'current-link':'menu','data-no-turbolink'=>true %>
           </p>
-          <p>
-            墙胶
-          </p>
-          <p>
-           门胶
-          </p>
+
         </section>
         <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
           <h3>新闻中心</h3>

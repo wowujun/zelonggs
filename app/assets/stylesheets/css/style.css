@@ -519,7 +519,7 @@ h2.title {
 
 .blog-entry-meta-comments {
     display: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 14px;
     vertical-align: top;
 }
@@ -564,7 +564,7 @@ h2.title {
 
 .blog-small article .post-image {
 	float:left;
-	width: 43%;
+	width: 42%;
 	margin-bottom:25px;
 }
 
@@ -1098,10 +1098,11 @@ ul.graph-container {
 }
 
 .item .item-inner,.post-image {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     overflow: hidden;
     position: relative;
     border-radius: 2px;
+    margin-right: 10px;
 }
 
 .post-image, .img-content {
@@ -1725,7 +1726,7 @@ ul.why li:before {
 }
 
 .blog-divider {
-	margin:35px 0;
+	margin: 0;
 	background: url(../bg_off.png) repeat;
     content: "";
     height: 5px;

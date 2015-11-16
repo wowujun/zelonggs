@@ -23,7 +23,7 @@
 .conent_jianjie{ width:100%; height:264px; border:1px solid #dcdcdc; border-top:0px;}
 .conent_jianjie .gongsi_tu{ width:44%; height:200px;  float:left; margin-top:27px; margin-left:2%; border:1px solid #f5f4f4;}
 .conent_jianjie .gongsi_neir{ width:48%; height:240px; float:left; overflow:hidden;margin-left:3%; margin-top:5px; padding-top:10px;}
-.conent_jianjie .gongsi_neir p{ line-height:19px; color:#676766;}
+.conent_jianjie .gongsi_neir p{ line-height:19px; color:#676766;text-indent:2em}
 .conent_jianjie .gongsi_neir p a{ color:#f06c10;}
 
 /*产品展示*/
