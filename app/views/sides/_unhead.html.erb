@@ -1,5 +1,4 @@
-<body class="home">
-<div class="wrap">
+
   <!-- Header Start -->
   <header id="header">
     <!-- Header Top Bar Start -->
@@ -55,15 +54,10 @@
             <%= link_to '新闻中心',sides_path(keywords:"news"),class: params[:keywords]=='news'?'current-link':'menu','data-no-turbolink'=>true %>
             </li>
             <li>
-              <a href="#" class="sf-with-ul">
-                服务与支持
-                           <span class="sf-sub-indicator">
-                           <i class="icon-angle-down "></i>
-                           </span>
-              </a>
+              <%= link_to '关于我们',sides_path(keywords:"about"),class: params[:keywords]=='about'?'current-link':'menu','data-no-turbolink'=>true %>
             </li>
             <li>
- <%= link_to '关于我们',sides_path(keywords:"about"),class: params[:keywords]=='about'?'current-link':'menu','data-no-turbolink'=>true %>
+           <%= link_to '联系我们',sides_path(keywords:"contact"),class: params[:keywords]=='contact'?'current-link':'menu','data-no-turbolink'=>true %>
             </li>
             <li><%= link_to '留言',sides_path(keywords:"message"),class: params[:keywords]=='message'?'current-link':'menu','data-no-turbolink'=>true %></li>
           </ul>

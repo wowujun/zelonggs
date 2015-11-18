@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :advertisements
   resources :sidecontents
   resources :newscents
   resources :sideclas
@@ -14,7 +15,6 @@ Rails.application.routes.draw do
 
   resources :cfgs
   resources :messages
-  resources :advertisements
   resources :products
   resources :sides
   resources :admins do

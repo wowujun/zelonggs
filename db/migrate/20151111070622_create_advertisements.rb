@@ -3,7 +3,8 @@ class CreateAdvertisements < ActiveRecord::Migration
     create_table :advertisements do |t|
       t.string :title
       t.string :local
-      t.string :content
+      t.text :content
+      t.string :image
 
       t.timestamps null: false
     end

@@ -1,4 +1,5 @@
 
+
 <script type="text/javascript" language="javascript">
     function readURL(input) {
         if (input.files && input.files[0]) {
@@ -35,7 +36,7 @@
       <% end %>
 
 
-      <table class="col-lg-8">
+      <table class="col-lg-12">
         <tr>
           <div class="form-group">
             <td style="margin-top: 10px;width:80px;text-align: right;padding: 10px;"><%= f.label :标题 %></td>
@@ -63,18 +64,7 @@
 
             <td style="margin-top: 10px;width:80px;text-align: right;padding: 10px;"><%= f.label :图片 %></td>
             <td >
-              <%if @advertisement.avatar.url%>
-                  <div>
-                    <%= image_tag('no_image.png',id:'img1')%>
-                  </div>
-              <%else%>
-                  <div>
-                    <img id="img1"  src=<%= @advertisement.avatar.url%> />
-                  </div>
-              <%end%>
-              <div >
-                <%= f.file_field :avatar, :onchange => "readURL(this)"%>
-              </div>
+              <%= f.kindeditor :image, class:"form-control"%>
 
             </td>
           </div>

@@ -4,14 +4,15 @@ class SidesController < ApplicationController
     @message = Message.new
     @cfgs = Cfg.all
     @sideclas = Sidecla.all
+    @advertisements = Advertisement.all
     @keyword = params[:keywords];
     if @keyword == "news"
       @cla = Sidecla.find_by_keywords("news")
-    @sidecontents = @cla.sidecontents
+    @sidecontents = @cla.sidecontents.paginate(page:params[:page],:per_page => 1)
       @searchs = @sidecontents
     else
       @cla = Sidecla.find_by_keywords("products")
-      @sidecontents = @cla.sidecontents
+      @sidecontents = @cla.sidecontents.paginate(page:params[:page],:per_page => 1)
       end
 
   end

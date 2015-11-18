@@ -21,44 +21,7 @@
 }
 
 /* Graph Holder bottom side */
-.graph-container:before {
-    position: absolute;
-    content: "";
 
-    bottom: 0;
-    left: -1.25em; /* skew pushes it left, so we move it a bit in opposite direction */
-
-    width: 100%; /* make sure it is as wide as the whole graph */
-
-    height: 2.5em;
-    background-color: rgba(183, 183, 183, 1);
-
-    /* Make it look perspective */
-    -webkit-transform: skew(-45deg);
-    -moz-transform: skew(-45deg);
-    -o-transform: skew(-45deg);
-    -ms-transform: skew(-45deg);
-    transform: skew(-45deg);
-}
-
-/* Graph Holder left side */
-.graph-container:after {
-    position: absolute;
-    content: "";
-
-    top: 1.25em; /* skew pushes it up so we move it down a bit */
-    left: -2.5em;
-
-    width: 2.5em;
-    background-color: rgba(129, 129, 129, 0.4);
-
-    /* Make it look perspective */
-    -webkit-transform: skew(0deg, -45deg);
-    -moz-transform: skew(0deg, -45deg);
-    -o-transform: skew(0deg, -45deg);
-    -ms-transform: skew(0deg, -45deg);
-    transform: skew(0deg, -45deg);
-}
 
 /* Bars and X-axis labels holder */
 .graph-container > li {

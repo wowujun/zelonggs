@@ -73,6 +73,6 @@ class SidecontentsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def sidecontent_params
-      params.require(:sidecontent).permit(:sidecla_id, :title, :inpaper, :content, :time, :admin_id)
+      params.require(:sidecontent).permit(:sidecla_id, :title, :inpaper,:version,:feature,:range, :content, :time, :admin_id)
     end
 end

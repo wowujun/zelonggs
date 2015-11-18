@@ -1,0 +1,52 @@
+BODY {
+    　font: normal 100% Helvetica, Arial, sans-serif;
+}
+* A {POSITION: relative}
+
+A IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+#featureContainer {
+	 WIDTH: 100%;
+}
+#wrap {
+	OVERFLOW: hidden
+}
+#load {
+	BACKGROUND-IMAGE: url(images/loader32x32.gif); BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; MARGIN: 0px auto; WIDTH: 100%; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%; HEIGHT: 300px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted
+}
+#feature {
+    　font: normal 100% Helvetica, Arial, sans-serif;
+}
+
+#feature .prev1 {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 3.6%; DISPLAY: block; BACKGROUND: url(../feature_left.png) center top; FLOAT: left; HEIGHT: 48px; BORDER-TOP: #999 0px dotted; TOP: -200px; BORDER-RIGHT: #999 0px dotted
+}
+#feature .next1 {
+	BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; TEXT-INDENT: -9999px; WIDTH: 3.6%; DISPLAY: block; BACKGROUND: url(../feature_right.png) center top; FLOAT: right; HEIGHT: 48px; BORDER-TOP: #999 0px dotted; TOP: -200px; BORDER-RIGHT: #999 0px dotted
+}
+#feature .prev1:hover {
+	BACKGROUND-POSITION: center bottom
+}
+#feature .next1:hover {
+	BACKGROUND-POSITION: center bottom
+}
+
+.featureBox {
+	 BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; WIDTH: 220%; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 300px; OVERFLOW: hidden; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted;margin-left: 33px;
+}
+#botton-scroll {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; BORDER-LEFT: #999 0px dotted; MARGIN: 0px auto; WIDTH: 12%; FLOAT: left; HEIGHT: 300px; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted;margin-left: 40px;margin-top: 10px;
+}
+#block {
+	Z-INDEX: 0; BORDER-BOTTOM: #999 0px dotted; POSITION: relative; BORDER-LEFT: #999 0px dotted; PADDING-BOTTOM: 20px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH:100%; PADDING-RIGHT: 0px; HEIGHT:300px; FONT-SIZE: 70%; OVERFLOW: hidden; BORDER-TOP: #999 0px dotted; BORDER-RIGHT: #999 0px dotted; PADDING-TOP: 0px;margin-left: -20px;
+}
+#block .box {
+	BORDER-BOTTOM: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 0px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 10px; PADDING-LEFT: 10px; WIDTH:240%; PADDING-RIGHT: 10px; FLOAT: left; HEIGHT: 300px; BORDER-TOP: #d8d8d8 0px solid; BORDER-RIGHT: #d8d8d8 0px solid; PADDING-TOP: 10px
+}
+#block .box .feature-title {
+	FONT-SIZE: 140%; FONT-WEIGHT: normal
+}
+#block .box .feature-thumb {
+	WIDTH: 240px; MARGIN-BOTTOM: 5px; FLOAT: left; HEIGHT: 300px
+}
