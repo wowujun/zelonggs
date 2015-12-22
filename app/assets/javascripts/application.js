@@ -69,7 +69,7 @@
 //= require jquery.raty.js
 
 //= require main.js
-
+//= require zh_CN.js
 
 
 

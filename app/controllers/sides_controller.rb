@@ -14,15 +14,12 @@ class SidesController < ApplicationController
       @cla = Sidecla.find_by_keywords("products")
       @sidecontents = @cla.sidecontents.paginate(page:params[:page],:per_page => 1)
       end
-
   end
 
   def show
     @cfgs = Cfg.all
     @sidecontent = Sidecontent.find(params[:id])
     @sideclas = Sidecla.all
-
     @admins =Admin.all
-
   end
 end
