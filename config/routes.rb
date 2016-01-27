@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'sides#index'
   resources :advertisements
   resources :sidecontents
   resources :newscents
